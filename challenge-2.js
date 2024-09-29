@@ -1,20 +1,21 @@
 //challenge - 2 Speed Detector
 
+const prompt = require('prompt-sync')({sigint: true});
 
 //variable holding the speed of a car
 
-let carSp = 40;
+let carSpeed = parseFloat(prompt('speed of car in km/h: '))
 
 // Function to check if the car's speed is above 70 km/h
 
-function speedDet() {
+function speedDetector() {
     let points = 0;
     
-    if (carSpe < 70){
+    if (carSpeed < 70){
     console.log("Ok");
     } 
     else { 
-         for(speedLim = 70; speedLim < carSpe; speedLim += 5){
+         for(speedLimit = 70; speedLimit < carSpeed; speedLimit += 5){
             points += 1;
         }
         console.log(`Points: ${points}`);
@@ -28,4 +29,4 @@ function speedDet() {
 }
 
 //invoke function
-speedDet();
+speedDetector();
