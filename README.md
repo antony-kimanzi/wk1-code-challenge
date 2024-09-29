@@ -31,6 +31,6 @@ Javascript, GIT
 email :: antony.wambugu@student.moringaschool.com
 
 ### License
-*LIcenced under the [MT-licence](https://github.com/antony-kimanzi/portfolio-challenge/blob/main/LICENSE.md)*
+*LIcenced under the [MT-licence]((https://github.com/antony-kimanzi/wk1-code-challenge/blob/main/LICENSE.md))*
 
 Copyright (c) 2024 **Antony Kimanzi**
