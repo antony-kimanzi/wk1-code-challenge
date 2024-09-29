@@ -1,5 +1,6 @@
 //Challenge 1 - Student Grade Generator
 
+
 //added the prompt-sync module so as to create prompting functions that can retrieve user's input from the terminal
 const prompt = require('prompt-sync')({sigint: true});
 
